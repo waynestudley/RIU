@@ -9,6 +9,7 @@ In the project directory, you can run:
 
 ### Test credentials:
 Username: italert@moneyexpert.com
+
 Password: aaaaaaaa
 
 Runs the app in the development mode.<br />
