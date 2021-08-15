@@ -1,0 +1,92 @@
+@import "../variables";
+@import "../colors";
+
+.YourQuotes {
+  position: relative;
+  &__heading {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  &__flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+  }
+  &__flexItem {
+    display: inline-block;
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding:10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    background-color: $brandWhite;
+
+    &Top {
+      display: flex;
+      align-items: center;
+      padding:10px;
+    }
+    &Bottom {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding:10px;
+    }
+    &Divider {
+      background-color: $brandGrey;
+      height: 1px;
+      width: 100%;
+    }
+    &Icon {
+      width: 10%;
+      display: inline-block;
+      margin-right:10px;
+    }
+
+    &Title {
+      width: 90%;
+      display: inline-block;
+      font-weight: bold;
+    }  
+  }
+  &__selectorContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__selectorItem {
+    font-size: 3vw;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    margin: 10px 0;
+    padding:10px;
+    color: $brandWhite;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    border-right: thin $brandGrey;
+    background-color: $brandSecondary;
+
+    &Active {
+    font-size: 3vw;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    margin: 10px 0;
+    padding:10px;
+    color: $brandWhite;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    border-bottom: $ctaPrimary 2px solid;
+    border-right: thin $brandGrey;
+      background-color: $brandPrimary;
+    }
+    
+  }
+ 
+  &__Cost {
+    text-align: center;
+    width: 34%;
+  }
+  &__Expires {
+    text-align: right;
+    width: 34%;
+  }
+}

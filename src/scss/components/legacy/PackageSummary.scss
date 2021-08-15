@@ -1,0 +1,19 @@
+@import "../variables";
+@import "../colors";
+
+.PackageSummary {
+  padding: 1vw;
+
+  &__tr {
+  }
+  &__td {
+    display: inline-block;
+    width: 50%;
+  }  
+  &__tableHeading {
+    background-color: $brandPrimary;
+    color:white;
+  }
+  &__overview {
+  }
+}

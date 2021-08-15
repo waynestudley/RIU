@@ -1,0 +1,17 @@
+@import "../variables";
+@import "../colors";
+
+.Register {
+  padding:20px;  
+  text-align: left;
+  
+  & .Cta{
+    margin-top:20px;
+  }
+
+  & .inputError{
+    font-size: 1.7vh;
+    text-align: right;
+    max-width: 65%;
+  }
+}

@@ -1,0 +1,37 @@
+@import "../variables";
+@import "../colors";
+
+.Footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  background-color: $brandWhite;
+  color: $brandBlack;
+  box-shadow: 0px -2px 4px rgba(187, 191, 194, 0.5);
+
+  &__spacer{
+    visibility: hidden;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px -2px 4px rgba(187, 191, 194, 0.5);
+  }
+
+  &__heading{
+    margin:0;
+    text-align: center;
+  }
+
+  &__flexContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  &__flexItem {
+    width:15%;
+    padding:5px;
+    & svg {
+      height: auto;
+    }
+  }
+}

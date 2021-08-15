@@ -1,0 +1,21 @@
+@import "../variables";
+@import "../colors";
+
+.Header {
+  padding:10px;  
+  display: flex;
+  align-items: flex-end;
+  background-color: $brandPrimary;
+  color:$brandWhite;
+  min-height:71px;
+  
+  & h3{
+    text-align: center;
+    width:100%;
+    margin:0;
+  }
+
+  & button{
+    max-width: 3%;
+  }
+}

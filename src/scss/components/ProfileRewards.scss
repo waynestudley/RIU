@@ -1,0 +1,38 @@
+@import "../variables";
+@import "../colors";
+
+.ProfileRewards {
+
+  &__checkboxLabel{
+    display:inline;
+  }
+  &__checkboxInput{
+    display:inline;
+    width:auto;
+  }
+  & p{
+    margin:0;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 10px;
+  }
+  &__box--padded{
+      margin: 10px;
+    position:relative;
+    background-color:$brandWhite;
+    padding:20px 10px;
+    border: thin solid #d4d4d4;
+    border-width: thin;
+  }
+  &__box{
+    background-color:$brandWhite;
+    padding:10px;
+  }
+  &__spacer{
+    height:20px;
+  }
+  &__checkbox{
+    background-color: red;
+  }
+}

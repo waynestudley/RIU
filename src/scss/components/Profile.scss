@@ -1,0 +1,87 @@
+@import "../variables";
+@import "../colors";
+
+.Profile {
+  background-color: $brandBackGroundGrey;
+  &__heading {
+    text-align: left;
+    padding-left: 10px;
+    padding: 10px;
+  }
+  & p {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  & .address_wrapper {
+    width: 96%;
+    max-height: 200px;
+    overflow: auto;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    border: 2px solid rgba(102, 102, 102, 1);
+    border-radius: 3px;
+  }
+
+  & .address_wrapper:empty {
+    display: none;
+  }
+
+  & p.lookup_data {
+    color: $brandPrimary;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0.5rem;
+    border-top: 1px dashed rgba(102, 102, 102, 1);
+    cursor: pointer;
+  }
+
+  & p.lookup_data:first-child {
+    border-top: none;
+  }
+
+  & p.lookup_data:first-child {
+    border-top: none;
+  }
+
+  & p.lookup_data:nth-child(even) {
+    background-color: $brandBackground;
+  }
+
+  & p.lookup_data:nth-child(odd) {
+    background-color: $brandGrey;
+  }
+
+  &__box {
+    position: relative;
+    background-color: $brandWhite;
+    padding: 10px;
+  }
+
+  &__box--padded {
+    position: relative;
+    background-color: $brandWhite;
+    padding: 20px 10px;
+  }
+
+  &__edit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  &__spacer {
+    height: 12px;
+  }
+
+  &__menuLink {
+    background-color: $brandWhite;
+    padding: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

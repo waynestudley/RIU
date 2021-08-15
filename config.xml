@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.moneyexpert.mex" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MexApp</name>
+  <description>Money Expert Android and iOS.</description>
+  <author email="italert@moneyexpert.com" href="https://www.moneyexpert.com">Money Expert Ltd.</author>
+  <content src="index.html"/>
+  <plugin name="cordova-plugin-whitelist" spec="1"/>
+  <access origin="*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+    <icon src="icons/android/mipmap-ldpi/ic_launcher.png" density="ldpi"/>
+    <icon src="icons/android/mipmap-mdpi/ic_launcher.png" density="mdpi"/>
+    <icon src="icons/android/mipmap-hdpi/ic_launcher.png" density="hdpi"/>
+    <icon src="icons/android/mipmap-xhdpi/ic_launcher.png" density="xhdpi"/>
+    <icon src="icons/android/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi"/>
+    <icon src="icons/android/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi"/>
+  </platform>
+  <platform name="ios">
+    <allow-intent href="itms:*"/>
+    <allow-intent href="itms-apps:*"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-60x60@3x.png" width="180" height="180"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-60x60@2x.png" width="120" height="120"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-76x76@1x.png" width="76" height="76"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-76x76@2x.png" width="152" height="152"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-40x40@1x.png" width="40" height="40"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-40x40@2x.png" width="80" height="80"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-29x29@1x.png" width="29" height="29"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-29x29@2x.png" width="58" height="58"/>
+    <icon src="icons/ios/AppIcon.appiconset/Icon-App-29x29@3x.png" width="87" height="87"/>
+  </platform>
+</widget>

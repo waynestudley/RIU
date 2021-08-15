@@ -1,0 +1,49 @@
+@import "../../variables";
+@import "../../colors";
+
+.Cta {
+  display: block;
+  position: relative;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  width: 80%;
+
+  &--primary {
+    background-color: $ctaPrimary;
+    color: $brandWhite;
+    font-weight: bold;
+  }
+  &--secondary {
+    background-color: $ctaSecondary;
+    color: $brandBlack;
+    font-weight: bold;
+    position: sticky;
+    bottom: 1vh;
+  }
+  &--facebook {
+    background-color: $brandFacebook;
+    color: $brandWhite;
+    font-weight: bold;
+  }
+  &--google {
+    background-color: $brandWhite;
+    color: $brandBlack;
+  }
+  &__facebookIcon {
+    position: absolute;
+    bottom: 6px;
+    left: 15px;
+    width: auto;
+  }
+  &__googleIcon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+  }
+}

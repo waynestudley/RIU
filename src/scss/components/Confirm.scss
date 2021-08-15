@@ -1,0 +1,10 @@
+@import "../variables";
+@import "../colors";
+
+.Confirm {
+  padding:20px;  
+  text-align: center;
+  & .Cta{
+    margin-top:20px;
+  }
+}

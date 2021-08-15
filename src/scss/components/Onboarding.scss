@@ -1,0 +1,32 @@
+@import "../variables";
+@import "../colors";
+
+.Onboarding {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: $brandBackground;
+  color: $brandPrimary;
+  padding: 20px;
+  overflow: hidden;
+
+  &__card {
+    padding: 8px;
+  }
+  &__heading {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    height: 10vh;
+  }
+  &__copy {
+    margin-top: 2vh;
+    max-height: 16vh;
+    font-size: 6vw;
+  }
+  &__icon {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

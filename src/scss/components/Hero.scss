@@ -1,0 +1,61 @@
+@import "../variables";
+@import "../colors";
+
+.Hero {
+  background-color: $brandWhite;
+  padding-bottom: 1vh;
+  position: relative;
+
+  &__siteLink {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    & h3 {
+      display: inline-block;
+      color: $brandSecondary;
+    }
+
+    & svg {
+      width: auto;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+  }
+
+  &__heading {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  &__flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  &__flexItem {
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+
+    &Top {
+      background-color: $brandWhite;
+    }
+    &TopSvg {
+      width: 50%;
+      margin-left: 25%;
+    }
+
+    &Bottom {
+      background-color: $ctaPrimary;
+      min-height: 40px;
+      color: $brandWhite;
+      text-align: center;
+      padding: 10px 10px;
+      border-radius: 0px 0px 5px 5px;
+    }
+  }
+}

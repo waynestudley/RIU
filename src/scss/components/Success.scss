@@ -1,0 +1,11 @@
+@import "../variables";
+@import "../colors";
+
+.Success {
+  padding:20px;  
+  text-align: center;
+  
+  & .Cta{
+    margin-top:20px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "../../variables";
+@import "../../colors";
+
+$dotWidth: 4vw;
+
+.Dots {
+  width: 100%;
+  text-align: center;
+  margin-top: 5vh;
+
+  &--black {
+    display: inline-block;
+    background: black;
+    width: $dotWidth;
+    height: $dotWidth;
+    border-radius: 50%;
+    margin: 1vw;
+  }
+
+  &--grey {
+    display: inline-block;
+    background: lightgrey;
+    width: $dotWidth;
+    height: $dotWidth;
+    border-radius: 50%;
+    margin: 1vw;
+  }
+}

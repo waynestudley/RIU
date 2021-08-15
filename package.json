@@ -1,0 +1,68 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "firebase": "^7.17.2",
+    "formik": "^2.1.4",
+    "i18next": "^19.4.4",
+    "i18next-browser-languagedetector": "^4.1.1",
+    "i18next-http-backend": "^1.0.8",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.1.21",
+    "react-i18next": "^11.4.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.3"
+  },
+  "scripts": {
+    "start": "npm run remove:www-mac && react-scripts start",
+    "build": "npm run remove:www-mac && react-scripts build",
+    "start:pc": "npm run remove:www-pc && react-scripts start",
+    "build:pc": "npm run remove:www-pc && react-scripts build",
+    "build:cordova1": "npm run remove:www-mac && react-scripts build && node __script.js && mv build www",
+    "build:cordova2": "cordova platform add ios",
+    "build:cordova3": "cordova build",
+    "build:cordova:pc": "npm run remove:www-pc && react-scripts build && node __script.js && move build www && cordova build",
+    "remove:www-pc": "if exist www rd /s /q www",
+    "remove:www-mac": "rm -rf www",
+    "test": "react-scripts test",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
+    "eject": "npm run remove:www && react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "cordova-ios": "^6.1.1",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "node-sass": "^4.14.1"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "ios"
+    ]
+  }
+}

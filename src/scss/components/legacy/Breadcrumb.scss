@@ -1,0 +1,29 @@
+@import "../variables";
+@import "../colors";
+
+.Breadcrumb {
+  font-size: 1.5vw;
+  padding:1vw;
+
+  & form{
+    padding: 1vw;
+  }
+
+  &__item {
+    display: inline;
+    padding: 0.5vw;
+    background-color: white;
+    
+    &--selected {
+      background-color: gray;
+      display: inline;
+      padding: 0.5vw;
+    }
+  }
+
+  &__link {
+    display: inline;
+    padding: 0.5vw;
+    background-color: lightgray;
+  }
+}
