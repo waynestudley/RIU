@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi Liam
+
+This is a small project I worked on around a year ago - more of an MVP for a mobile app than a polished product (and there are bugs in it - I left the company half way through the project) - thankfully the API's are still up and running - but buggy! There was little or no unit testing going on with that organisation despite my pleas.
+
+It'll give you an idea of the code styles I use - the designs aren't mine so do ignore that aspect!
 
 ## Available Scripts
 
