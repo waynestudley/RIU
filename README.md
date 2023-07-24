@@ -8,6 +8,8 @@ It'll give you an idea of the code styles I use - the designs aren't mine so do 
 
 In the project directory, you can run:
 
+### `yarn install`
+
 ### `yarn start`
 
 
